@@ -1,0 +1,265 @@
+{
+	"resourceType": "Bundle",
+	"id": "014f2a15-2bd4-46d8-9a98-7cba4c218d7d",
+	"meta": {
+		"lastUpdated": "2017-09-16T18:06:28.006-06:00"
+	},
+	"type": "searchset",
+	"total": 10,
+	"link": [
+		{
+			"relation": "self",
+			"url": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation?code=http%3A%2F%2Floinc.org%7C58941-6%2Chttp%3A%2F%2Floinc.org%7C1968-7%2Chttp%3A%2F%2Floinc.org%7C1975-2%2Chttp%3A%2F%2Floinc.org%7C18185-9%2Chttp%3A%2F%2Floinc.org%7C1751-7%2Chttp%3A%2F%2Floinc.org%7C893-8%2Chttp%3A%2F%2Floinc.org%7C51006-5%2Chttp%3A%2F%2Floinc.org%7C19057-9&patient=TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+		}
+	],
+	"entry": [
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation/32763",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32763",
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1751-7",
+							"display": "Albumin"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"effectiveDateTime": "2016-01-01T03:45:00-07:00",
+				"valueQuantity": {
+					"value": 3.1,
+					"unit": "g/dL",
+					"code": "g/dL"
+				}
+			}
+		},
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation/32765",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32765",
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1975-2",
+							"display": "Bilirubin, Total, S/P"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"effectiveDateTime": "2016-01-01T18:00:00-07:00",
+				"valueQuantity": {
+					"value": 7.5,
+					"unit": "mg/dL",
+					"code": "mg/dL"
+				}
+			}
+		},
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation/32762",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32762",
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "893-8",
+							"display": "Antibody Screen"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"effectiveDateTime": "2016-01-01T03:45:00-07:00",
+				"valueString": "Positive"
+			}
+		},
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation/32766",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32766",
+				"status": "amended",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1975-2",
+							"display": "Bilirub SerPl-mCnc"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"effectiveDateTime": "2016-01-04T00:00:00-07:00",
+				"valueQuantity": {
+					"value": 18.8,
+					"unit": "mg/dL",
+					"code": "mg/dL"
+				}
+			}
+		},
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation/32767",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32767",
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1975-2",
+							"display": "Bilirub SerPl-mCnc"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"effectiveDateTime": "2016-01-03T00:03:00-07:00",
+				"valueQuantity": {
+					"value": 14.7,
+					"unit": "mg/dL",
+					"code": "mg/dL"
+				}
+			}
+		},
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation/32768",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32768",
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "1975-2",
+							"display": "Bilirub SerPl-mCnc"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"effectiveDateTime": "2016-01-02T06:15:00-07:00",
+				"valueQuantity": {
+					"value": 14.3,
+					"unit": "mg/dL",
+					"code": "mg/dL"
+				}
+			}
+		},
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation/32761",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32761",
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "51006-5",
+							"display": "Direct Antiglobulin"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"effectiveDateTime": "2016-01-01T03:45:00-07:00",
+				"valueString": "Positive"
+			}
+		},
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation/32769",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32769",
+				"status": "amended",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "19057-9",
+							"display": "ABORh Neonatal"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"effectiveDateTime": "2016-01-01T01:17:00-07:00",
+				"valueString": "B Pos"
+			}
+		},
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation/32764",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32764",
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "58941-6",
+							"display": "Bilirub Skin-mCnc"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"effectiveDateTime": "2016-01-01T12:00:00-07:00",
+				"valueQuantity": {
+					"value": 5.0,
+					"unit": "mg/dL",
+					"code": "mg/dL"
+				}
+			}
+		},
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Observation/fc843cd4-198f-4fb2-8e58-cdd15e1f9360",
+			"resource": {
+				"resourceType": "Observation",
+				"id": "fc843cd4-198f-4fb2-8e58-cdd15e1f9360",
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "18185-9",
+							"display": "Gestational age"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"effectiveDateTime": "2017-07-21",
+				"valueQuantity": {
+					"value": 35,
+					"unit": "wk",
+					"code": "wk"
+				}
+			}
+		}
+	]
+}

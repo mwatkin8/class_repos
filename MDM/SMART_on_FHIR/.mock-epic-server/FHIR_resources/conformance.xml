@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Conformance xmlns="http://hl7.org/fhir">
+	<publisher value="Not provided"/>
+	<date value="2017-09-14T11:13:06-06:00"/>
+	<kind value="instance"/>
+	<software>
+		<name value="HAPI FHIR Server"/>
+		<version value="2.4"/>
+	</software>
+	<fhirVersion value="1.0.2"/>
+	<acceptUnknown value="extensions"/>
+	<format value="application/xml+fhir"/>
+	<format value="application/json+fhir"/>
+	<rest>
+		<mode value="server"/>
+		<security>
+			<extension url="http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris">
+				<extension url="authorize">
+					<valueUri value="/authorize"/>
+				</extension>
+				<extension url="token">
+					<valueUri value="/token"/>
+				</extension>
+			</extension>
+			<cors value="true"/>
+			<service>
+				<coding>
+					<system value="http://hl7.org/fhir/restful-security-service"/>
+					<code value="OAuth"/>
+				</coding>
+			</service>
+			<service>
+				<coding>
+					<system value="http://hl7.org/fhir/restful-security-service"/>
+					<code value="SMART-on-FHIR"/>
+				</coding>
+			</service>
+		</security>
+		<resource>
+			<type value="OperationDefinition"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/Profile/OperationDefinition"/>
+			</profile>
+			<interaction>
+				<code value="read"/>
+			</interaction>
+		</resource>
+		<resource>
+			<type value="StructureDefinition"/>
+			<profile>
+				<reference value="http://hl7.org/fhir/Profile/StructureDefinition"/>
+			</profile>
+			<interaction>
+				<code value="read"/>
+			</interaction>
+			<interaction>
+				<code value="search-type"/>
+			</interaction>
+		</resource>
+	</rest>
+</Conformance>

@@ -1,0 +1,42 @@
+{
+	"resourceType": "Bundle",
+	"id": "c785d5f2-fe30-4e73-953e-0170e6899319",
+	"meta": {
+		"lastUpdated": "2017-09-16T18:06:26.927-06:00"
+	},
+	"type": "searchset",
+	"total": 1,
+	"link": [
+		{
+			"relation": "self",
+			"url": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Encounter?patient=TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B&type=http%3A%2F%2Fsnomed.info%2Fsct%7C32485007"
+		}
+	],
+	"entry": [
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Encounter/32a6090f-baea-41fb-bef1-e5ee7aa86113",
+			"resource": {
+				"resourceType": "Encounter",
+				"id": "32a6090f-baea-41fb-bef1-e5ee7aa86113",
+				"status": "finished",
+				"type": [
+					{
+						"coding": [
+							{
+								"system": "http://snomed.info/sct",
+								"code": "32485007"
+							}
+						]
+					}
+				],
+				"patient": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"period": {
+					"start": "2016-01-01T00:00:00-07:00",
+					"end": "2016-01-06T08:30:00-07:00"
+				}
+			}
+		}
+	]
+}

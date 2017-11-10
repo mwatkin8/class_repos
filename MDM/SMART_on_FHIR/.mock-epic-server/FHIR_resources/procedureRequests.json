@@ -1,0 +1,15 @@
+{
+	"resourceType": "Bundle",
+	"id": "de9fae45-cf40-4a64-ba2e-c15bbc0896ac",
+	"meta": {
+		"lastUpdated": "2017-09-16T18:06:27.959-06:00"
+	},
+	"type": "searchset",
+	"total": 0,
+	"link": [
+		{
+			"relation": "self",
+			"url": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/ProcedureRequest?_count=50&code=http%3A%2F%2Fsnomed.info%2Fsct%7C31394004&patient=TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+		}
+	]
+}

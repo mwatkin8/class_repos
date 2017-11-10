@@ -1,0 +1,55 @@
+{
+	"resourceType": "Patient",
+	"id": "TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B",
+	"meta": {
+		"versionId": "1"
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Baby Bilirubin</p></div>"
+	},
+	"identifier": [
+		{
+			"use": "usual",
+			"system": "urn:epic-identifier-type-fhir",
+			"value": "TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+		}
+	],
+	"active": true,
+	"name": [
+		{
+			"use": "official",
+			"family": "Bilirubin",
+			"given": [
+				"Baby",
+				"Highbili"
+			]
+		}
+	],
+	"telecom": [
+		{
+			"system": "phone"
+		}
+	],
+	"gender": "male",
+	"birthDate": "2016-01-01",
+	"_birthDate": {
+		"extension": [
+			{
+				"url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+				"valueDateTime": "2016-01-01T00:00:00-07:00"
+			}
+		]
+	},
+	"address": [
+		{
+			"line": [
+				"456 Bilirubin Way"
+			],
+			"city": "San Diego",
+			"state": "California",
+			"postalCode": "92128",
+			"country": "United States of America"
+		}
+	]
+}

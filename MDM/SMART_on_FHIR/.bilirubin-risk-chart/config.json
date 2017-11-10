@@ -1,0 +1,17 @@
+{
+	"config": {
+		"chart" : "Standard",
+		"opencdsUrl": "http://tolven.chpc.utah.edu:8081/opencds-decision-support-service/fhir",
+		"kmScopingEntityId" : "org.opencds.smartonfhir",
+		"kmBusinessId" : "neonatalbilirubin",
+		"kmVersion" : "1.0",
+		"showPercentiles" : true,
+		"isNursery" : true,
+		"showAlbumin" :  true,
+		"debugMode": true,
+		"clientId":"c6d409ed-fb11-443b-975f-899657650a7f",
+		"scope":"launch patient/*.* openid profile",
+		"redirectUrl":"https://localhost:5050/redirect",
+		"sessionCacheTTL": 3600
+	}
+}

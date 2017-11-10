@@ -1,0 +1,17 @@
+{
+  "config": {
+    "iss": "https://localhost:5051",
+    "launch":"launch",
+    "clientId": "c6d409ed-fb11-443b-975f-899657650a7f",
+    "scope":"launch patient/*.* openid profile",
+    "redirectUrl": "https://localhost:5050/redirect",
+    "launchUrl": "https://localhost:5050/launch",
+    "accessToken": "1234",
+    "relatedPersonAccessToken" : "12345",
+    "patientId": "TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B",
+    "relatedPersonPatientId": "T2rz46fqoTE4ymwKiVWq-IrbdBc1gC3SjnFiQI7d8H.0B",
+    "code":"code",
+    "fhirResourcesPath":"/Users/salvador/.mock-epic-server/FHIR_resources"
+  }
+}
+

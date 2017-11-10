@@ -1,0 +1,36 @@
+{
+	"resourceType": "Bundle",
+	"id": "014f2a15-2bd4-46d8-9a98-7cba4c218d7f",
+	"meta": {
+		"lastUpdated": "2017-09-16T18:06:28.006-06:00"
+	},
+	"type": "searchset",
+	"total": 10,
+	"entry": [
+		{
+			"resource": {
+				"resourceType": "RelatedPerson",
+				"id": "76db5c05-b290-43c2-8b88-c5dc9832f5ae",
+				"identifier": [
+					{
+						"use": "usual",
+						"system": "urn:epic-identifier-type-fhir",
+						"value": "T2rz46fqoTE4ymwKiVWq-IrbdBc1gC3SjnFiQI7d8H.0B"
+					}
+				],
+				"patient": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"relationship": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "65656005"
+						}
+					],
+					"text": "Mother's Record Link"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"resourceType": "Bundle",
+	"id": "9d122405-1b96-42ef-a191-9a4fc5cede33",
+	"meta": {
+		"lastUpdated": "2017-09-16T18:06:28.396-06:00"
+	},
+	"type": "searchset",
+	"total": 1,
+	"link": [
+		{
+			"relation": "self",
+			"url": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Procedure?code=http%3A%2F%2Fsnomed.info%2Fsct%7C31394004&patient=TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+		}
+	],
+	"entry": [
+		{
+			"fullUrl": "https://edmopencdsdev.med.utah.edu:8443/epic-fhir-proxy/fhir/dstu3/Procedure/2016-01-02T08:30:00",
+			"resource": {
+				"resourceType": "Procedure",
+				"id": "2016-01-02T08:30:00",
+				"status": "completed",
+				"code": {
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "31394004",
+							"display": "Light therapy (procedure)"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/TmsQdKbH7V7DTNAb52pazcPDZ1UpZg1BjSDe1dPEQ-U8B"
+				},
+				"performedPeriod": {
+					"start": "2016-01-04T08:30:00",
+					"end": "2016-01-04T20:00:00"
+				}
+			}
+		}
+	]
+}

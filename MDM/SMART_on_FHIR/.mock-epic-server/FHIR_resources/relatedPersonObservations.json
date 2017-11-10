@@ -1,0 +1,52 @@
+{
+	"resourceType": "Bundle",
+	"id": "014f2a15-2bd4-46d8-9a98-7cba4c218d5y",
+	"meta": {
+		"lastUpdated": "2017-09-16T18:06:28.006-06:00"
+	},
+	"type": "searchset",
+	"entry": [
+		{
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32845",
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "893-8",
+							"display": "Antibody Screen"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/T2rz46fqoTE4ymwKiVWq-IrbdBc1gC3SjnFiQI7d8H.0B"
+				},
+				"effectiveDateTime": "2015-04-09T07:27:00-06:00",
+				"valueString": "Positive"
+			}
+		},
+		{
+			"resource": {
+				"resourceType": "Observation",
+				"id": "32844",
+				"status": "final",
+				"code": {
+					"coding": [
+						{
+							"system": "http://loinc.org",
+							"code": "882-1",
+							"display": "ABORh Prenatal"
+						}
+					]
+				},
+				"subject": {
+					"reference": "Patient/T2rz46fqoTE4ymwKiVWq-IrbdBc1gC3SjnFiQI7d8H.0B"
+				},
+				"effectiveDateTime": "2015-04-09T07:23:00-06:00",
+				"valueString": "O Neg"
+			}
+		}
+	]
+}
