@@ -1,0 +1,15 @@
+use 'git tag' to list all the different tags
+source activate flask_demo
+
+vvvvvvv most of the tags need this line at the end to make them functional vvvvvv
+if __name__ == "__main__":
+    app.run(debug=True)
+
+FROM CLASS SESSION
+2a = hello world
+2b = takes <name> from url (/user/mike) Hello, Mike!
+2c = works, uses handlers (name var? runserver needed with hello.py)
+3a = user and index -> rendering templates
+3b = bootstrap -> inheriting from bootstrap
+3c = more inheriting using moments **Blocks are important**
+4c = forms **validators, can use regex**, form is a class! Can be defined through wtf -> sessions store persistent data -> session[‘name’] = form.name.data
